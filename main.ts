@@ -1,10 +1,10 @@
-let cas = 0
+let Bpressed = 0
 input.onButtonPressed(Button.B, function on_button_pressed_b() {
     
-    cas = randint(250, 3000)
-    music.playTone(Note.C, cas)
+    Bpressed = randint(250, 3000)
+    music.playTone(Note.D, Bpressed)
 })
 input.onButtonPressed(Button.A, function on_button_pressed_a() {
-    music.playTone(Note.C, cas)
+    music.playTone(Note.D, Bpressed)
 })
 basic.showIcon(IconNames.Heart)
